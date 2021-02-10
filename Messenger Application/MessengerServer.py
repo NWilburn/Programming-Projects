@@ -59,7 +59,7 @@ def login_user(service, server_directory, conn_socket):
 
 if __name__ == '__main__':
     serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    serverSocket.bind(('10.0.0.34', 59634))
+    serverSocket.bind((socket.gethostname(), 59634))
     serverSocket.listen(5)
     sDirectory = os.path.dirname(__file__)
     print("Server is ready to go")
