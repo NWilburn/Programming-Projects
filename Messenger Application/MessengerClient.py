@@ -61,7 +61,7 @@ def login_user(user, password):
 
 if __name__ == '__main__':
     try:
-        clientSocket.connect(('10.0.0.34', 59634))    
+        clientSocket.connect((socket.gethostname(), 59634))    
         print("Welcome to pyMessenger")
         user_logged_in = False
         while user_logged_in != True:
