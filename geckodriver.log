@@ -1,2 +1,0 @@
-1624552934473	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\nwilb\\AppData\\Local\\Temp\\rust_mozprofilextV0ZO"
-*** You are running in headless mode.
